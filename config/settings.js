@@ -2,7 +2,7 @@ const path = require('path');
 
 const dotenv = require('dotenv');
 
-const DEFAULT_API_URL = 'https://api.hel.fi/respa-test/v1';
+const DEFAULT_API_URL = 'https://respa.koe.hel.ninja/v1';
 const DEFAULT_TIME_ZONE = 'Europe/Helsinki';
 const DEFAULT_LOGIN_CALLBACK_URL = '/login/helsinki/return';
 const ENV_NAMESPACE = 'VARAAMO_ENV';
